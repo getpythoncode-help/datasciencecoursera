@@ -1,0 +1,8 @@
+headers = GL/freeglut.h
+headerFilter = GL/*
+package = glut
+
+compilerOpts.osx = -I/usr/include -I/usr/local/include
+linkerOpts.osx = -L/usr/lib -L/usr/local/lib -lGL -lglut -lGLU
+compilerOpts.linux = -I/usr/include -I/usr/local/include
+linkerOpts.linux = -L/usr/lib/x86_64-linux-gnu -lGL -lglut -lGLU
