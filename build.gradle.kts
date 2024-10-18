@@ -1,5 +1,5 @@
 plugins {
-    kotlin("multiplatform") version "1.8.0"
+    kotlin("multiplatform") version "2.1.0-Beta2"
 }
 
 version = "1.0-SNAPSHOT"

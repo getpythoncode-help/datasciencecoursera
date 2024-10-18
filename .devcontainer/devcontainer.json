@@ -6,5 +6,8 @@
         "webPort": "6080",
         "vncPort": "5901"
     }
+  },
+  "tasks": {
+    "build": "./gradlew build"
   }
 }
